@@ -12,6 +12,11 @@
 #_form_9_ * {
     outline: 0;
 }
+.option-description {
+    font-size: 14px !important;
+    color: #555;
+    margin-top: 5px;
+}
 ._form_hide {
     display: none;
     visibility: hidden;
@@ -728,82 +733,85 @@ input:checked + .slider:before {
   <div class="_form-content">
     <div class="_form_element _x46512259 _full_width _clear" style="text-align: left;">
       <img class="_form-image" src="//content.app-us1.com/9LrkZ/2023/04/20/e9f55501-28bb-47ee-aa93-112d08046130.png" style="height:23px;width:174px" />
-      </div>
-      <div class="_form_element _x10353745 _full_width _clear" >
-        <div class="_form-title">
-          Manage your email preferences
-        </div>
-      </div>
-      <div class="_form_element _x83296516 _full_width " >
-        <label for="email" class="_form-label">
-          Email*
-        </label>
-        <div class="_field-wrapper">
-          <input type="text" id="email" name="email" placeholder="Type your email" required/>
-        </div>
-      </div>
-      <div class="_form_element _x34391362 _full_width " >
-        <fieldset class="_form-fieldset">
-          <div class="_row">
-            <legend for="field[169][]" class="_form-label">
-              What would you like to hear from us about?
-            </legend>
-          </div>
-          <input data-autofill="false" type="hidden" id="field[169][]" name="field[169][]" value="~|">
-          <div class="toggle-container">
-          	<label class="switch">
-            	<input id="field_169Training &amp; Events" type="checkbox" name="field[169][]" value="Training &amp; Events" checked>
-            	<span class="slider"></span>
-            </label>
- 			<span class="toggle-label">
-              <label for="field_169Onboarding">
-                Training &amp; Events
-              </label>
-            </span>
-          </div>
-          <div class="toggle-container">
-          	<label class="switch">
-            	<input id="field_169Newsletter" type="checkbox" name="field[169][]" value="Newsletter" checked>
-            	<span class="slider"></span>
-            </label>
- 			<span class="toggle-label">
-              <label for="field_169News &amp; Events">
-                Newsletter
-              </label>
-            </span>
-          </div>
-          <div class="toggle-container">
- 			<label class="switch">
-            	<input id="field_169Announcements &amp; Promotions" type="checkbox" name="field[169][]" value="Announcements &amp; Promotions" checked>
-    			<span class="slider"></span>
-  			</label>
- 			<span class="toggle-label">
-    			<label for="field_25Promotions">
-      				Announcements &amp; Promotions
-    			</label>
- 			</span>
-          </div>
-        </fieldset>
-      </div>
-      <div class="_button-wrapper _full_width">
-        <button id="_form_9_submit" class="_submit" type="submit">
-          Save Preferences
-        </button>
-      </div>
-      <div class="_clear-element">
-      </div>
-       <div class="_button-wrapper _full_width">
-        <button id="_form_9_unsubscribeAll" class="_unsubscribeAll" type="unsubscribeAll">
-          Unsubscribe from all
-        </button>
-      </div>
-       No matter what preferences you choose, you'll continue to receive essential service emails such as billing and password resets.
-      <div class="_clear-element">
+    </div>
+    <div class="_form_element _x10353745 _full_width _clear">
+      <div class="_form-title">
+        Manage your email preferences
       </div>
     </div>
-    <div class="_form-thank-you" style="display:none;">
+    <div class="_form_element _x83296516 _full_width">
+      <label for="email" class="_form-label">
+        Email*
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" id="email" name="email" placeholder="Type your email" required/>
+      </div>
     </div>
-  </form>
+    <div class="_form_element _x34391362 _full_width">
+      <fieldset class="_form-fieldset">
+        <div class="_row">
+          <legend for="field[169][]" class="_form-label">
+            What would you like to hear from us about?
+          </legend>
+        </div>
+        <input data-autofill="false" type="hidden" id="field[169][]" name="field[169][]" value="~|">
+        <div class="toggle-container">
+          <label class="switch">
+            <input id="field_169Training &amp; Events" type="checkbox" name="field[169][]" value="Training &amp; Events" checked>
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">
+            <label for="field_169Onboarding">
+              Training &amp; Events
+            </label>
+          </span>
+          <div class="option-description">Tailored training sessions and events to help your team make the most out of Accurx.</div>
+        </div>
+        <div class="toggle-container">
+          <label class="switch">
+            <input id="field_169Newsletter" type="checkbox" name="field[169][]" value="Newsletter" checked>
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">
+            <label for="field_169News &amp; Events">
+              Newsletter
+            </label>
+          </span>
+          <div class="option-description">A monthly digest of the latest on our products and services specific to your organisation's version of Accurx.</div>
+        </div>
+        <div class="toggle-container">
+          <label class="switch">
+            <input id="field_169Announcements &amp; Promotions" type="checkbox" name="field[169][]" value="Announcements &amp; Promotions" checked>
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">
+            <label for="field_25Promotions">
+              Announcements &amp; Promotions
+            </label>
+          </span>
+          <div class="option-description">Be the first to hear from our team about upcoming features and updates.</div>
+        </div>
+      </fieldset>
+    </div>
+    <div class="_button-wrapper _full_width">
+      <button id="_form_9_submit" class="_submit" type="submit">
+        Save Preferences
+      </button>
+    </div>
+    <div class="_clear-element">
+    </div>
+    <div class="_button-wrapper _full_width">
+      <button id="_form_9_unsubscribeAll" class="_unsubscribeAll" type="unsubscribeAll">
+        Unsubscribe from all
+      </button>
+    </div>
+    No matter what preferences you choose, you'll continue to receive essential service emails such as billing and password resets.
+    <div class="_clear-element">
+    </div>
+  </div>
+  <div class="_form-thank-you" style="display:none;">
+  </div>
+</form>
  <script>
 window.cfields = {"169":"marketing_preferences"};
 window._show_thank_you = function(id, message, trackcmp_url, email) {
